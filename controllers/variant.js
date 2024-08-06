@@ -2,6 +2,7 @@ const Variant = require('../models/variant');
 const asyncWrapper = require('../middleWare/asyncWrapper');
 const HttpStatusText = require('../utils/httpStatusText');
 const AppError = require('../utils/appError');
+const Product = require('../models/product');
 
 const getAllVariant = asyncWrapper(
   async (req, res) => {

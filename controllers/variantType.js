@@ -1,5 +1,7 @@
 const VariantType = require('../models/variantType');
 const asyncWrapper = require('../middleWare/asyncWrapper');
+const Product = require('../models/product');
+const Variant = require('../models/variant');
 
 const getAllVariantType = asyncWrapper(
   async (req, res, next) => {

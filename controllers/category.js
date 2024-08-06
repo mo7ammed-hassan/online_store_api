@@ -5,6 +5,7 @@ const HttpStatusText = require('../utils/httpStatusText');
 const { uploadCategory } = require('../uploadFile');
 const SubCategory = require('../models/subCategory');
 const multer = require('multer');
+const Product = require('../models/product');
 
 
 const getCategories = asyncWrapper(

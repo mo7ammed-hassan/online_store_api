@@ -1,7 +1,8 @@
 const asyncWrapper = require('../middleWare/asyncWrapper');
 const SubCategory = require('../models/subCategory');
 const AppError = require('../utils/appError');
-
+const Product = require('../models/product');
+const Brand = require('../models/brand');
 
 const getSubCategories = asyncWrapper(
   async (req, res) => {
